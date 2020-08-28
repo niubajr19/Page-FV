@@ -1,0 +1,104 @@
+h1{
+    color: #333333;
+    font-weight: 600;
+    margin-top: 30px;
+    font-family: 'Merriweather Sans';
+    
+}
+
+p{
+    font-family: "Titillium Web";
+    text-align: justify;
+    color: gray;
+    text-align: justify;
+    vertical-align: middle;
+    display: table-cell;
+    line-height: 2em;
+}
+.quem-somos{
+    display: flex;
+    justify-content: center;
+    background-color:#f5f5f5;
+    
+}
+.quem-somos .container{
+    display:flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-flow: column;
+    
+    
+}
+.quem-somos .container .topo{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.quem-somos .container .lideranca-locais{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin-top: 5%;
+
+}
+.lideranca-locais .lideranca{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.lideranca-locais .lideranca .lider{
+    height:100%;
+    width: 100%;
+    background:url("../images/lider.jpg") no-repeat center;
+    background-size: 100%;
+}
+.lideranca-locais .lideranca .card .coluna{
+    width: 20%;
+    height:100%;
+    opacity: 0;
+    background: linear-gradient(81deg,#ff500f,#ff8700)!important;
+    display: none;
+}
+.lideranca-locais .lideranca .card:hover .coluna{
+    display: block;
+
+}
+
+.lideranca-locais .lideranca h1{
+    text-align: center;
+    width: 100%;
+}
+.lideranca-locais .locais{
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    text-align: center;
+    margin-top: 4%;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.lideranca-locais .locais h1{
+    margin-bottom: 2%;
+}
+.lideranca-locais ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    justify-content: center;
+}
+.lideranca-locais ul li{
+    display:flex;
+    width: 23%;
+    min-width: 200px;
+    margin: 1%;
+    align-items: center;
+    flex-flow: column;
+}
+.img-fluid{
+    padding: 20%;
+}
+.card-body p{
+    text-align: center;
+    padding-bottom: 30px;
+}
